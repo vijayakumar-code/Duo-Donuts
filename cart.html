@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donut World - Customize</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Donut World Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="customize.html">Customize</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="customize">
+    <h2>Customize Your Donut</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>Step 1: Choose Flavor</h3>
+        <select id="flavor">
+          <option value="chocolate">Chocolate</option>
+          <option value="vanilla">Vanilla</option>
+          <option value="strawberry">Strawberry</option>
+        </select>
+      </div>
+      <div class="step">
+        <h3>Step 2: Add Toppings</h3>
+        <select id="toppings">
+          <option value="sprinkles">Sprinkles</option>
+          <option value="nuts">Nuts</option>
+          <option value="coconut">Coconut</option>
+        </select>
+      </div>
+      <div class="step">
+        <h3>Step 3: Select Glaze</h3>
+        <select id="glaze">
+          <option value="chocolate">Chocolate</option>
+          <option value="caramel">Caramel</option>
+          <option value="maple">Maple</option>
+        </select>
+      </div>
+    </div>
+    <button id="add-to-cart">Add to Cart</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Donut World. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
