@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  font-family: 'Fredoka One', cursive;
+  background-color: #f8f3e6;
+  color: #5a3e36;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff9aa2;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo img {
+  height: 80px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5a3e36;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffdac1;
+}
+
+.cta-button {
+  background-color: #ff9aa2;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.customize, .cart {
+  padding: 20px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.step {
+  background-color: #ffdac1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+footer {
+  background-color: #ff9aa2;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
